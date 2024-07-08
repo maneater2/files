@@ -1,0 +1,29 @@
+super + shift + d
+	firemenu
+
+super + shift + f
+	dwmc togglefloating
+
+super + shift + l
+	slock
+
+super + shift + p
+	poweroff
+
+super + shift + r
+	restart
+
+super + shift + s
+	scrot
+
+super + {c,v,n}
+	st -e {cmus,cmixer,note}
+
+super + F2
+	slock
+
+super + F3
+        dmenuunicode
+
+super + r
+	randbg
