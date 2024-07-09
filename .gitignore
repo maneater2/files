@@ -1,0 +1,7 @@
+.config/git/credentials
+.local/share/lftp
+.local/share/newsboat/cache.db
+.local/share/newsboat/history.search
+.config/mpv/watch*
+.config/systemd/user/default.target.wants/
+src/
