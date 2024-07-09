@@ -10,4 +10,4 @@ main() {
 	xdo show $WINID
 }
 
-[ "$1" = "" ] && printf "Error: You must provide at least one argument.\nExample usage: swallow mpv ~/videos/AmericanPsycho.mkv\n" || main "$@"
+[ "$1" = "" ] && printf "Error: You must provide at least one argument.\nExample usage: swallow mpv ~/coolvideo.mp4\n" || main "$@"

@@ -8,5 +8,5 @@ export WALL="$(imgshuf)"
 while [ "$WALL" = "$(cat $HOME/.cache/lastwall)" ]; do export WALL="$(imgshuf)"; done
 
 echo "$WALL" > $HOME/.cache/lastwall
-xwallpaper --zoom "$WALL"
 wal -q -i "$WALL"
+xwallpaper --zoom "$WALL"

@@ -3,7 +3,7 @@
 
 if [ "$1" = "" ]; then
 	case $(uname) in
-		Linux) sudo reboot || doas reboot;;
+		Linux) sudo reboot || doas reboot ;;
 		*BSD) doas shutdown -r now ;;
 	esac
 else
