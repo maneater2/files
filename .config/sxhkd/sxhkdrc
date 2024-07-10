@@ -8,7 +8,7 @@ super + shift + l
 	slock
 
 super + shift + p
-	poweroff
+	sysact
 
 super + shift + r
 	restart
@@ -26,4 +26,7 @@ super + F3
         dmenuunicode
 
 super + r
-	randbg
+	getwallpaper switch
+
+super + e
+	caja
