@@ -8,7 +8,7 @@ mount --make-rslave $MNT/dev
 mount --bind /run $MNT/run
 mount --make-slave $MNT/run
 
-echo "make /dev/shm/ a tmpfs mount? (y/n)"
+echo "make /dev/shm/ a tmpfs mount? this is recommended on non-gentoo installation media (y/n)"
 read answer
 if [ $answer = "y" ]; then 
 test -L /dev/shm && rm /dev/shm && mkdir /dev/shm
