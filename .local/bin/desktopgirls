@@ -19,12 +19,11 @@ populate () {
 	for i in $(seq "$COUNT"); do
 		disp
 	done
-	#i want to add xdotool integration
 	fi
 }
 
 case "$1" in
-	killit) killall sxiv && exit 1 ;;
+	killit) killall nsxiv && exit 1 ;;
 esac
 
 if [ -z ${1+x} ]; then
