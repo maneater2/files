@@ -16,5 +16,5 @@ mount --types tmpfs --options nosuid,nodev,noexec shm /dev/shm
 chmod 1777 /dev/shm /run/shm
 fi
 if [ $answer != "y" ]; then
-echo "ok"
+echo "not making /dev/shm/ a tmpfs mount..."
 fi
