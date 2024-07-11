@@ -16,7 +16,6 @@ alias suvim="svim"
 alias dmenu_nice="dmenu -i -fn 'monospace:size=8' -nb '#222222' -nf '#bbbbbb' -sb '#005577' -sf '#eeeeee'"
 alias netstart="doas sh /etc/netstart"
 alias neofetch="neofetch | sed 's.AMD ATI Radeon RX 6700/6700 XT/6750 XT / 6800M/6850M XT.AMD Radeon RX 6700 XT.'"
-alias n="clear && neofetch"
 
 command -v betterls > /dev/null 2>&1 && alias ls="betterls"
 
