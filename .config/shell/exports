@@ -31,8 +31,8 @@ export XINITRC="${XDG_CONFIG_HOME:-$HOME/.config}/x11/xinitrc"
 export ZDOTDIR="${XDG_CONFIG_HOME:-$HOME/.config}/zsh"
 export VIMINIT="set nocp | source ${XDG_CONFIG_HOME:-$HOME/.config}/vim/vimrc"
 
-export EDITOR=vis
-export BROWSER=firefox-bin
+export EDITOR=vim
+export BROWSER=chromium
 export TERMINAL=st
 export PATH="$PATH:$HOME/.local/bin:$HOME/.local/share/cargo/bin"
 export OS="$(uname)"
